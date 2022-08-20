@@ -1,0 +1,459 @@
+/*Responsive*/
+@media (max-width: 1245px) {
+  .featured-content iframe {
+    width: 480px;
+    height: 330px;
+  }
+  .featured-content a img {
+    width: 280px;
+    height: 330px;
+  }
+  .featured-book-watchlist select {
+    width: 8.5rem;
+  }
+  .featured-book-watchlist button {
+    width: 8.5rem;
+  }
+  .featured-book-watchlist label {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 670px) and (max-width: 1000px) {
+  .featured-container {
+    margin-left: 5rem;
+  }
+  .featured-book-watchlist button {
+    margin: 0rem 0rem 1rem 1rem;
+  }
+  .featured-book-watchlist select {
+    margin: 0rem 0rem 1rem 1rem;
+  }
+  .featured-book-watchlist label {
+    margin: 0rem 0rem 1rem 1rem;
+  }
+  .featured-content iframe {
+    margin-right: 0;
+  }
+  .featured-content a img {
+    margin-right: 0;
+  }
+  .featured-title {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .featured-content iframe {
+    width: 400px;
+    height: 250px;
+  }
+  .featured-content a img {
+    width: 200px;
+    height: 250px;
+  }
+  .featured-rating-container {
+    flex-direction: column;
+    margin-right: auto;
+    margin-top: 2rem;
+  }
+  .featured-rating {
+    flex-direction: row;
+    margin-top: 0;
+    margin-right: 0;
+    font-size: smaller;
+  }
+  .featured-rating h5 {
+    font-size: 0.75rem;
+  }
+  .featured-rating h6 {
+    font-size: 1rem;
+  }
+  .featured-book-watchlist select {
+    width: 6rem;
+  }
+  .featured-book-watchlist button {
+    width: 6rem;
+  }
+  .featured-book-watchlist label {
+    font-size: 0.75rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .header-bottom a {
+    font-size: 1rem;
+    margin: 0px 15px;
+  }
+  .featured-content iframe {
+    width: 325px;
+    height: 175px;
+  }
+  .featured-content a img {
+    width: 125px;
+    height: 175px;
+  }
+  .main-movie-title {
+    font-size: 1.75rem;
+  }
+  .main-movie-desc {
+    font-size: 0.75rem;
+  }
+  .main-tickets {
+    width: 7rem;
+    padding: 0.25rem 0;
+    font-size: 0.75rem;
+  }
+}
+
+@media (max-width: 670px) {
+  .header-bottom a {
+    font-size: 0.75rem;
+    margin: 0px 10px;
+  }
+
+  .featured-content {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .featured-rating h5 {
+    font-size: 0;
+  }
+
+  .featured-rating-desc i {
+    font-size: 1.5rem;
+  }
+
+  .featured-rating-container {
+    flex-direction: column;
+    margin-right: auto;
+    margin-top: 2rem;
+  }
+  .featured-rating {
+    flex-direction: row;
+    margin-top: 0;
+    margin-right: 0;
+  }
+  .featured-poster {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .featured-content a img {
+    width: 200px;
+    height: 300px;
+  }
+  .featured-content iframe {
+    width: 450px;
+    height: 300px;
+  }
+  .featured-book-watchlist {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .featured-book-watchlist button {
+    margin: 0 auto;
+    margin-top: 1rem;
+    width: 30%;
+    height: 2.5rem;
+  }
+  .featured-book-watchlist select {
+    width: 35%;
+    margin: 0 auto;
+  }
+  .featured-book-watchlist label {
+    font-size: 1.5rem;
+    margin: 0 auto;
+  }
+  .main-movie-container {
+    max-width: 65%;
+    margin: 0rem 0rem 1rem -3rem;
+  }
+  .container-utama h2 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .featured-title {
+    font-size: 1.5rem;
+  }
+  .featured-time {
+    font-size: 0.75rem;
+  }
+  .featured-genres button {
+    padding: 4px;
+    font-size: 0.75rem;
+  }
+  .featured-content a img {
+    width: 125px;
+    height: 225px;
+  }
+  .featured-content iframe {
+    width: 375px;
+    height: 225px;
+  }
+}
+
+/*Awal media query Body Section*/
+/*Awal dari media query buat layar tablet*/
+@media (max-width: 1000px) {
+  .content {
+    position: relative;
+    width: 170px;
+    height: 370.688px;
+    margin-right: 18px;
+  }
+
+  .content .position-dekstop {
+    position: static;
+  }
+
+  .content .position-tablet {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+
+  .content img {
+    width: 170px;
+  }
+
+  .content .button {
+    display: block;
+    text-align: center;
+    box-sizing: border-box;
+    width: 170px;
+  }
+
+  .title {
+    text-align: center;
+  }
+
+  .duration,
+  .genre {
+    display: none;
+  }
+
+  .content .rating {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 2px 4px;
+    font-weight: normal;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    color: black;
+  }
+}
+/*Akhir dari media query buat layar tablet*/
+
+/*Awal dari media query buat layar handphone*/
+@media (max-width: 670px) {
+  .horizontal-content {
+    display: block;
+  }
+  .content {
+    display: inline-block;
+    position: relative;
+    width: 150px;
+    height: auto;
+    margin-right: 15px;
+  }
+
+  .content img {
+    width: 150px;
+  }
+
+  .content .upper-content {
+    position: relative;
+  }
+
+  .content .position-dekstop {
+    position: static;
+  }
+
+  .content .position-tablet {
+    position: static;
+  }
+
+  .content .title {
+    position: absolute;
+    bottom: 0;
+    padding: 0 5px 2px 5px;
+    width: 150px;
+    background-image: linear-gradient(
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.8)
+    );
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .content:hover .title {
+    white-space: normal;
+    overflow: visible;
+    text-overflow: clip;
+  }
+
+  .content .button {
+    display: block;
+    text-align: center;
+    width: auto;
+  }
+
+  .title {
+    text-align: center;
+  }
+
+  .duration,
+  .genre {
+    display: none;
+  }
+
+  .content .rating {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 2px 4px;
+    font-weight: normal;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    color: black;
+  }
+}
+/*Akhir dari media query buat layar handphone*/
+/*Akhir media query Body Section*/
+
+/* Cooming Soon, About US, News Wrapper */
+@media (max-width: 1000px) {
+  .grid {
+    grid-template-columns: 1fr;
+    margin: 0 20px;
+  }
+  .about-content {
+    flex-direction: column-reverse;
+    justify-content: center;
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+  .about-content .about-info {
+    width: 80%;
+    margin: 20px 0 30px 0;
+  }
+  .about-content .about-info h1 {
+    font-size: 3.2rem;
+    letter-spacing: 1.5px;
+    padding-bottom: 5px;
+  }
+  .about-content .about-info p {
+    font-size: 1.5rem;
+  }
+  .about-content .img {
+    width: 80%;
+  }
+  .news-wrapper,
+  .learn-wrapper {
+    margin: 0 10px;
+    font-size: 14px;
+  }
+  .date {
+    font-size: 20px;
+  }
+
+  .news-wrapper {
+    width: 98%;
+  }
+  .learn-more {
+    width: 100%;
+  }
+
+  .form button {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 670px) {
+  .grid {
+    grid-template-columns: 1fr;
+    margin: 0 20px;
+  }
+  .about-content {
+    flex-direction: column-reverse;
+    justify-content: center;
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+  .about-content .about-info {
+    width: 80%;
+    margin: 20px 0 30px 0;
+  }
+  .about-content .about-info h1 {
+    font-size: 3.2rem;
+    letter-spacing: 1.5px;
+    padding-bottom: 5px;
+  }
+  .about-content .about-info p {
+    font-size: 1.5rem;
+  }
+  .about-content .img {
+    width: 80%;
+  }
+  .date {
+    font-size: 15px;
+  }
+  .date-learn {
+    font-size: 12px;
+  }
+  .news-wrapper {
+    width: 97%;
+  }
+  .news-wrapper,
+  .learn-wrapper {
+    margin: 0 10px;
+    font-size: 12px;
+  }
+  .learn-more {
+    width: 100%;
+  }
+  .form button {
+    margin-bottom: 20px;
+  }
+}
+/* Awal Footer*/
+@media (max-width: 860px) {
+  .footer-stage-1 {
+    width: auto;
+  }
+}
+
+@media (max-width: 576px) {
+  .footer-stage-1 {
+    width: auto;
+  }
+
+  .footer-stage-2 {
+    width: auto;
+    flex-direction: column;
+  }
+
+  .social-icon {
+    padding-left: 20px;
+  }
+
+  .team-members {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 0px;
+  }
+}
+/* Akhir Footer*/

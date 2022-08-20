@@ -1,0 +1,1081 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins:wght@200;400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #1d1d1d;
+  margin: 0;
+  padding: 0;
+}
+
+.header-top {
+  margin: 1.5rem 0 1rem 0;
+}
+
+.header-top img {
+  max-width: 20%;
+  cursor: pointer;
+}
+
+.header-container {
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 1px;
+  text-align: center;
+  background-color: black;
+  padding-bottom: 9px;
+}
+
+.header-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 0.75rem;
+}
+
+.header-bottom a {
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  font-size: large;
+  letter-spacing: normal;
+  margin: 0px 25px;
+  padding: 10px;
+}
+
+.LogIn {
+  width: 7rem;
+  border: 3px solid rgb(157, 138, 16);
+  border-radius: 12px;
+  font-weight: bold;
+}
+.SignUp {
+  width: 7rem;
+  border: 3px solid rgba(255, 0, 0, 0.5);
+  border-radius: 12px;
+  font-weight: bold;
+}
+
+.header-bottom a:hover {
+  background-color: #676767;
+  border-radius: 12px;
+}
+
+.SignUp:hover {
+  transition: 0.5s ease-in-out;
+}
+
+.LogIn:hover {
+  transition: 0.5s ease-in-out;
+}
+
+.header-bottom span {
+  padding: 10px;
+}
+
+.container-utama {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.slider-container {
+  height: 500px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+
+.menu {
+  position: absolute;
+  left: 0;
+  z-index: 900;
+  width: 100%;
+  bottom: 0;
+}
+
+.menu label {
+  cursor: pointer;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: #fff;
+  border-radius: 50px;
+  outline: 1px solid black;
+  margin: 0 0.5em 1em;
+}
+
+.menu label:hover {
+  background: red;
+}
+
+.menu label:active {
+  transform: scale(0.75);
+}
+
+.slide {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  z-index: 10;
+  padding: 8em 1em 0;
+  background-size: cover;
+  background-position: 50% 50%;
+  transition: left 0s 0.55s;
+}
+
+[id^="slide"]:checked + .slide {
+  left: 0;
+  z-index: 100;
+  transition: left 0.45s ease-out;
+}
+/* Slide */
+.slide-1 {
+  background-image: url("../image/main-thebatman.jpg");
+  background-size: cover;
+  background-position: 75% 25%;
+}
+.slide-2 {
+  background-image: url("../image/main-sing2.jpg");
+  background-size: cover;
+  background-position: 25% 75%;
+}
+.slide-3 {
+  background-image: url("../image/main-alive.jpg");
+  background-size: cover;
+  background-position: 75% 25%;
+}
+.slide-4 {
+  background-image: url("../image/main-itchaptertwo.jpg");
+  background-size: cover;
+  background-position: 75% 25%;
+}
+.slide-5 {
+  background-image: url("../image/main-obiwankenobi.jpg");
+  background-size: cover;
+  background-position: 75% 25%;
+}
+
+.main-movie-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 40%;
+}
+
+.main-movie-title {
+  font-family: "Poppins";
+  font-weight: bold;
+  font-size: 2.5rem;
+  color: #fff;
+  text-align: left;
+  margin: 0rem 0rem 1rem 4rem;
+}
+
+.main-movie-desc {
+  font-family: "Poppins";
+  font-weight: normal;
+  text-align: left;
+  color: #fff;
+  margin: 0rem 0rem 1rem 4rem;
+}
+
+.main-tickets {
+  width: 10rem;
+  padding: 0.5rem 0;
+  border-radius: 8px;
+  border: none;
+  background-color: #e8c700;
+  font-family: "Poppins";
+  font-weight: bold;
+  margin: 0rem 0rem 1rem 4rem;
+  box-shadow: 0 7px rgb(157, 138, 16);
+  cursor: pointer;
+}
+
+.main-tickets:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+/*Featured section*/
+
+.container-utama h2 {
+  color: #e8c700;
+  font-size: 2.5rem;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  margin-left: 15px;
+  margin-top: 2rem;
+}
+
+.container-utama hr {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.fa-star {
+  color: #e8c700;
+  font-size: 2rem;
+}
+
+.fa-regular {
+  color: #5799ef;
+  cursor: pointer;
+}
+
+.fa-regular:hover {
+  color: #e8c700;
+}
+
+.fa-arrow-trend-up {
+  color: #fb3c3c;
+  font-size: 2rem;
+}
+
+.featured-container {
+  color: #fff;
+  margin-top: 1rem;
+  margin-left: 15px;
+  margin-right: 10px;
+}
+
+.featured-title-and-rating {
+  display: flex;
+  flex-direction: row;
+}
+
+.featured-rating-container {
+  display: flex;
+  margin-left: auto;
+}
+
+.featured-rating {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  margin-right: 2rem;
+}
+
+.featured-rating h5 {
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.featured-rating h5 span {
+  color: rgba(255, 0, 0, 0.5);
+}
+
+.featured-rating-desc {
+  display: flex;
+  flex-direction: row;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.featured-rating-desc:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.featured-small-text {
+  font-size: 1.5rem;
+  margin-top: auto;
+  margin-left: 10px;
+  margin-bottom: 0;
+}
+
+.featured-genres button {
+  padding: 8px;
+  border-radius: 30px;
+  background-color: transparent;
+  border: 2px solid rgba(255, 0, 0, 0.5);
+  color: rgba(255, 255, 255, 0.8);
+  margin-top: 8px;
+}
+
+.featured-genres button:hover {
+  background-color: rgba(103, 103, 103, 0.5);
+}
+
+.featured-line {
+  margin-top: 3.5rem;
+}
+
+.featured-title {
+  font-size: 1.75rem;
+  margin-bottom: 8px;
+  letter-spacing: 2px;
+}
+
+.featured-time {
+  margin-top: 0;
+}
+
+.featured-content {
+  margin-top: 2rem;
+  display: flex;
+}
+
+.featured-content a img {
+  width: 270px;
+  height: 370px;
+  margin-right: 1rem;
+}
+
+.featured-content a img:hover {
+  opacity: 0.75;
+}
+
+.featured-book-watchlist {
+  display: flex;
+  flex-direction: column;
+}
+
+.featured-book-watchlist button {
+  width: 10rem;
+  padding: 0.5rem 0;
+  border-radius: 8px;
+  border: none;
+  background-color: #e8c700;
+  font-family: "Poppins";
+  font-weight: bold;
+  margin: 0rem 0rem 1rem 3rem;
+  box-shadow: 0 7px rgb(157, 138, 16);
+  cursor: pointer;
+}
+
+.featured-book-watchlist select {
+  font-family: "Poppins";
+  font-weight: bold;
+  padding: 10px 5px;
+  margin: 0rem 0rem 1rem 3rem;
+  width: 10rem;
+  border: 1px solid #fff;
+  border-radius: 2px;
+  background-color: transparent;
+  color: #fff;
+  cursor: pointer;
+}
+
+.featured-book-watchlist select option {
+  color: black;
+  background-color: rgba(103, 103, 103, 0.5);
+  font-weight: bold;
+}
+
+.featured-book-watchlist label {
+  margin-left: 3rem;
+}
+
+.featured-book-watchlist button:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+#slideshow-main-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 3rem;
+}
+
+#slideshow-images-container {
+  text-align: center;
+  overflow: hidden;
+  height: 510px;
+  width: 728px;
+  margin-bottom: 5rem;
+}
+
+#slideshow-text-container {
+  color: #fff;
+  margin-left: 2rem;
+}
+
+.slideshow-text :nth-child(1) {
+  font-size: 2.5rem;
+  margin-right: 6px;
+  font-weight: lighter;
+  letter-spacing: -1px;
+}
+
+.slideshow-text :nth-child(2) {
+  font-size: 5rem;
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-family: "Dancing Script", cursive;
+}
+
+.slideshow-description {
+  margin: 0.5rem 0 0.5rem 0;
+}
+
+.slideshow-description span {
+  color: #ffd700;
+}
+
+#slideshow-text-container button {
+  margin-top: 1rem;
+  margin-left: 0;
+  font-size: 1rem;
+}
+
+.slide-wrapper {
+  width: 2912px;
+  animation: slide 13s ease infinite;
+}
+
+.slideshow {
+  float: left;
+  height: 510px;
+  width: 728px;
+}
+
+.slideshow img {
+  height: 510px;
+  width: 355px;
+}
+
+@keyframes slide {
+  20% {
+    margin-left: 0px;
+  }
+  30% {
+    margin-left: -728px;
+  }
+  50% {
+    margin-left: -728px;
+  }
+  60% {
+    margin-left: -1456px;
+  }
+  70% {
+    margin-left: -1456px;
+  }
+  80% {
+    margin-left: -2184px;
+  }
+  90% {
+    margin-left: -2184px;
+  }
+}
+
+/*Awal CSS Body Section*/
+.body-content {
+  margin: 8px;
+}
+
+.container-body {
+  max-width: 1300px;
+  margin: auto;
+}
+
+/*Awal dari CSS Section Title*/
+.section-title {
+  border-bottom: 1px solid #8c8c8c;
+  margin-top: 50px;
+  padding-bottom: 4px;
+}
+
+.section-title h3 {
+  float: left;
+  margin: 0;
+  font-size: 20px;
+  display: block;
+  color: white;
+}
+
+.section-title h3 i {
+  font-size: 25px;
+  color: #e8c700;
+}
+
+.section-title a {
+  float: right;
+  text-decoration-line: none;
+  color: #fff;
+  font-size: 17px;
+  padding-top: 3px;
+  margin-right: 10px;
+  display: block;
+  color: white;
+}
+
+.section-title a:hover {
+  color: rgb(219, 219, 219);
+}
+
+.section-title::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/*Akhir dari CSS Section Title*/
+
+/*Awal dari CSS buat container horizontal*/
+.horizontal-content {
+  padding-top: 20px;
+  white-space: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding-bottom: 15px;
+  display: flex;
+}
+
+/*Awal dari CSS buat styling scrollbar*/
+.horizontal-content::-webkit-scrollbar {
+  height: 5px;
+}
+
+.horizontal-content::-webkit-scrollbar-track {
+  background-color: rgb(65, 65, 65);
+  border-radius: 5px;
+}
+
+.horizontal-content::-webkit-scrollbar-thumb {
+  background-color: rgb(231, 231, 231);
+  border-radius: 5px;
+}
+
+.horizontal-content::-webkit-scrollbar-thumb:hover {
+  background-color: #b9b9b9;
+}
+
+.horizontal-content::-webkit-scrollbar-thumb:active {
+  background-color: #919191;
+}
+/*Akhir dari CSS buat styling scrollbar*/
+/*Akhir dari CSS buat container horizontal*/
+
+/*Awal dari CSS buat content box film*/
+.content:first-child {
+  margin-left: 5px;
+}
+
+.content {
+  width: 185px;
+  margin-right: 20px;
+  height: 470.906px;
+  position: relative;
+}
+
+.content:last-child {
+  margin-right: 5px;
+}
+
+.content .position-dekstop {
+  position: absolute;
+  bottom: 0;
+}
+
+.content p {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.content .title {
+  font-weight: 700;
+  white-space: normal;
+  color: white;
+}
+
+.content .duration {
+  white-space: normal;
+  font-weight: 300;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.duration span::after {
+  color: rgba(255, 255, 255, 1);
+  content: "  | ";
+}
+
+.content .genre {
+  width: 185px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: 300;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.content .rating {
+  white-space: normal;
+  font-weight: 300;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.content .rating span {
+  color: rgba(255, 255, 255, 1);
+}
+
+.content img {
+  width: 185px;
+  border-radius: 10px;
+  transition: all 0.4s;
+}
+
+.content:hover img {
+  opacity: 0.4;
+}
+
+.content .button {
+  text-decoration-line: none;
+  display: inline-block;
+  color: black;
+  background-color: #e8c700;
+  font-size: 10px;
+  font-weight: 700;
+  white-space: normal;
+  padding: 8px 14px;
+  border-radius: 4px;
+  align-content: end;
+}
+
+.content .button:hover {
+  background-color: #c2a813;
+}
+
+.content .button:active {
+  background-color: #917c0a;
+}
+/*Akhir dari CSS buat content box film*/
+
+/* About us, Coming Soon, News */
+
+/* ====================Heading===================== */
+
+/* Cooming Soon Film */
+
+/* ============================================= */
+/* ================Bagian About================= */
+.main-header {
+  background-color: black;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+.container-coming {
+  width: 100%;
+}
+.coming-soon {
+  width: auto;
+}
+/* ====================Heading===================== */
+.heading {
+  height: 55px;
+  padding: 20px;
+  border-bottom: 2px solid ghostwhite;
+  margin: 0 10px;
+}
+.heading-left {
+  float: left;
+  text-align: left;
+  /* padding: 20px; */
+}
+.heading-right {
+  float: right;
+  text-align: right;
+  /* padding: 30px 20px; */
+}
+.heading::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.heading-right a {
+  color: white;
+  text-decoration: none;
+}
+.heading-left h2,
+.content p,
+h5 {
+  color: white;
+}
+
+/* Cooming Soon Film */
+.cards-grid-coming-soon {
+  margin: 0 10px;
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-auto-rows: auto;
+  gap: 20px;
+  font-family: sans-serif;
+  padding-top: 30px;
+  background-color: black;
+}
+
+.cards-coming-soon * {
+  box-sizing: border-box;
+}
+
+.card-image {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  display: block;
+}
+
+.card-content {
+  font-size: 18px;
+  padding: 10px;
+}
+.card-content > p:first-of-type {
+  margin-top: 0;
+}
+.card-content > p:last-of-type {
+  margin-bottom: 0;
+}
+.card-content > h4 {
+  padding: 0;
+  margin: 0;
+}
+
+.card {
+  box-shadow: 0px 5px 5px 0 black;
+  border-radius: 10px;
+  text-align: center;
+  background: #070606;
+  /* width: 200px; */
+  transition: transform;
+}
+
+.card:hover {
+  transform: scale(0.9);
+  opacity: 0.7;
+}
+.card-image {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card-info {
+  padding: 10px;
+  justify-content: space-between;
+  align-items: center;
+  /* text-align: center; */
+  background: #070606;
+  font-size: 0.8em;
+  border-radius: 10px;
+}
+
+.card-link {
+  position: relative;
+  color: #fff;
+  text-decoration: none;
+}
+
+.card-link:hover {
+  text-decoration: underline;
+}
+
+/* ============================================= */
+/* ================Bagian About================= */
+.about {
+  width: 40%;
+  margin: 10px 0 0 0;
+  text-align: center;
+  border-bottom: 2px solid #e8c700;
+  margin-bottom: 15px;
+  margin-top: 20px;
+}
+.about-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem 4rem;
+  border-bottom: 0.6rem solid #111;
+}
+
+.about-content .about-info {
+  width: 40%;
+}
+
+.about-content .about-info h1 {
+  font-size: 2.1rem;
+  letter-spacing: 2px;
+  padding-bottom: 10px;
+  color: #fff;
+}
+.about-content .about-info p {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.about-content .img {
+  width: 45%;
+}
+
+.about-content .img img {
+  width: 100%;
+}
+
+.comment {
+  position: relative;
+  width: 100%;
+  right: 0;
+  padding-top: 10px;
+  margin: 10px 70px 20px 0;
+  text-align: center;
+  border-bottom: 2px solid #e8c700;
+}
+.trending {
+  position: relative;
+  width: 30%;
+  padding-top: 10px;
+  margin: 10px 70px 20px 0;
+  text-align: left;
+  border-bottom: 2px solid #e8c700;
+  text-align: center;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, alpha);
+}
+
+.section-grid {
+  position: relative;
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  margin: auto 15px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2.5rem;
+  align-items: center;
+}
+
+.info h1 {
+  font-size: 2.8rem;
+}
+
+.info p {
+  color: #747474;
+  line-height: 1.6;
+  margin: 0px 0;
+}
+
+.flex-input {
+  width: 100%;
+  color: #fff;
+  font-family: "Barbow", open;
+  font-size: 17px;
+  padding: 0.75rem;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #333;
+  margin: 0.6rem 0;
+  border-radius: 2px;
+  box-sizing: border-box;
+  background: transparent;
+  resize: vertical;
+  transition: border 0.3s ease;
+}
+
+.flex-input:focus {
+  border-bottom-color: #e8c700;
+}
+
+.form .flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex > * {
+  flex-basis: 49%;
+}
+
+::placeholder {
+  color: #fff;
+  font-weight: 400;
+}
+
+.form button {
+  width: 150px;
+  padding: 0.75rem 0;
+  border: none;
+  outline: none;
+  background: #e8c700;
+  color: #070606;
+  font-size: 18px;
+  transition: 0.3s ease;
+  border-radius: 5px;
+}
+
+.form button:hover {
+  opacity: 0.7;
+}
+
+.info-film img {
+  float: left;
+  width: 35%;
+  margin-right: 5px;
+}
+.info-film p,
+.info-film h3 {
+  float: right;
+  width: 60%;
+  text-align: justify;
+}
+
+/* NEWS WRAPPER */
+
+.news-wrapper,
+.learn-wrapper {
+  height: 300px;
+  /* background-color: #554E4D; */
+  margin: 0 20px;
+}
+
+.date {
+  float: left;
+  width: 20%;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.article {
+  float: right;
+  width: 70%;
+  margin-right: 10px;
+}
+
+.article h3 {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.article p,
+.article-learn p {
+  text-indent: 50px;
+  text-align: justify;
+}
+
+.border-bottom {
+  height: 40px;
+  padding: 10px;
+  text-align: right;
+  border-bottom: 2px solid white;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.border-bottom a {
+  text-decoration: none;
+  color: white;
+  margin-right: 20px;
+}
+
+.date-learn {
+  float: left;
+  width: 10%;
+  font-size: 20px;
+}
+
+.article-learn {
+  float: right;
+  width: 70%;
+  margin-right: 10px;
+}
+
+/*Awal Footer CSS*/
+footer {
+  width: 100%;
+  height: 700;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  padding: 0px 20px;
+}
+
+.footer-stage-1 {
+  display: inline-block;
+  width: 100%;
+  height: 70px;
+  border-top: 2px solid white;
+  padding-top: 10px;
+}
+
+.btn-backtotop {
+  float: right;
+  margin: 15px 20px 15px 20px;
+  padding-bottom: 2px;
+  border-bottom: 3px solid white;
+}
+
+.btn-backtotop a {
+  color: white;
+  font-weight: bold;
+  display: block;
+  text-decoration: none;
+}
+
+.footer-stage-2 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+  border-bottom: 2px solid white;
+  padding-bottom: 10px;
+}
+
+.footer-list {
+  width: 20%;
+}
+
+.footer-list a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-list li {
+  padding-top: 10px;
+  list-style: none;
+}
+
+.social-icon {
+  padding-left: 60px;
+  padding-top: 60px;
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+}
+
+.icon {
+  color: white;
+
+  padding-left: 25px;
+}
+
+.team-members {
+  color: white;
+  padding-top: 0px;
+  padding-left: 90px;
+  width: 35%;
+}
+
+.footer-stage-3 {
+  color: white;
+  text-align: center;
+  padding: 20px 0px;
+}
+
+/*Akhir Footer CSS*/
+/*Akhir CSS Body Section*/

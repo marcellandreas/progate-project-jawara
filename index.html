@@ -1,0 +1,834 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+    <!--  Font Awesome Icons -->
+    <script
+      src="https://kit.fontawesome.com/90288313b9.js"crossorigin="anonymous"
+    ></script>
+    <title>Jawara Movie</title>
+  </head>
+  <body>
+    <!-- Start of Header  -->
+    <header>
+      <div class="header-container">
+        <div class="header-top">
+          <img src="assets/image/header-jawara-logo.png" />
+        </div>
+        <div class="header-bottom">
+          <a href="#featured-movies">Featured</a>
+          <span></span>
+          <a href="#trending-now">Trending</a>
+          <span></span>
+          <a href="#most-popular">Most Popular</a>
+          <span></span>
+          <a href="#coming-soon">Coming Soon</a>
+          <span></span>
+          <a href="#about-us">About</a>
+          <span></span>
+          <a href="#news">News</a>
+          <span></span>
+          <a href="#" class="LogIn">Log In</a>
+          <a href="#" class="SignUp">Sign Up</a>
+        </div>
+      </div>
+    </header>
+    <!-- End of Header  -->
+
+    <div id="carousel" class="slider-container">
+      <div class="menu">
+        <label for="slide-dot-1"></label>
+        <label for="slide-dot-2"></label>
+        <label for="slide-dot-3"></label>
+        <label for="slide-dot-4"></label>
+        <label for="slide-dot-5"></label>
+      </div>
+
+      <input id="slide-dot-1" type="radio" name="slides" checked />
+      <div class="slide slide-1">
+        <div class="main-movie-container">
+          <h3 class="main-movie-title">The Batman</h3>
+          <span class="main-movie-desc"
+            >When a sadistic serial killer begins murdering key political
+            figures in Gotham, Batman is forced to investigate the city's hidden
+            corruption and question his family's involvement.</span
+          >
+          <button class="main-tickets">GET TICKET</button>
+        </div>
+      </div>
+
+      <input id="slide-dot-2" type="radio" name="slides" />
+      <div class="slide slide-2">
+        <div class="main-movie-container">
+          <h3 class="main-movie-title">Sing 2</h3>
+          <span class="main-movie-desc"
+            >Buster Moon and his friends must persuade reclusive rock star Clay
+            Calloway to join them for the opening of a new show.</span
+          >
+          <button class="main-tickets">GET TICKET</button>
+        </div>
+      </div>
+
+      <input id="slide-dot-3" type="radio" name="slides" />
+      <div class="slide slide-3">
+        <div class="main-movie-container">
+          <h3 class="main-movie-title">Alive</h3>
+          <span class="main-movie-desc"
+            >The rapid spread of an unknown infection has left an entire city in
+            ungovernable chaos, but one survivor remains alive in isolation. It
+            is his story.</span
+          >
+
+          <button class="main-tickets">GET TICKET</button>
+        </div>
+      </div>
+
+      <input id="slide-dot-4" type="radio" name="slides" />
+      <div class="slide slide-4">
+        <div class="main-movie-container">
+          <h3 class="main-movie-title">It: Chapter Two</h3>
+          <span class="main-movie-desc"
+            >Twenty-seven years after their first encounter with the terrifying
+            Pennywise, the Losers Club have grown up and moved away, until a
+            devastating phone call brings them back.</span
+          >
+          <button class="main-tickets">GET TICKET</button>
+        </div>
+      </div>
+
+      <input id="slide-dot-5" type="radio" name="slides" />
+      <div class="slide slide-5">
+        <div class="main-movie-container">
+          <h3 class="main-movie-title">Obi-Wan Kenobi</h3>
+          <span class="main-movie-desc"
+            >Jedi Master Obi-Wan Kenobi has to save young Leia after she is
+            kidnapped, all the while being pursued by Imperial Inquisitors and
+            his former Padawan, now known as Darth Vader.</span
+          >
+          <button class="main-tickets">GET TICKET</button>
+        </div>
+      </div>
+    </div>
+    <!-- End of Movie Carousel -->
+
+    <!-- Featured Movies-->
+    <section class="container-utama" id="featured-movies">
+      <h2>Featured Movies</h2>
+      <hr />
+      <div class="featured-container">
+        <div class="featured-title-and-rating">
+          <div class="featured-title-container">
+            <h3 class="featured-title">Thor: Love and Thunder</h3>
+            <span class="featured-time"
+              >6<sup>th</sup> July 2022 | 12A | 1h 58m</span
+            >
+            <div class="featured-genres">
+              <button>Action</button>
+              <button>Adventure</button>
+              <button>Comedy</button>
+            </div>
+          </div>
+          <div class="featured-rating-container">
+            <div class="featured-rating">
+              <h5><span>Jawara</span> Rating</h5>
+              <div class="featured-rating-desc">
+                <i class="fa-solid fa-star"></i>
+                <h6 class="featured-small-text">6.7/10</h6>
+              </div>
+            </div>
+            <div class="featured-rating">
+              <h5>Your Rating</h5>
+              <div class="featured-rating-desc">
+                <i class="fa-regular fa-star"></i>
+                <h6 class="featured-small-text">Rate</h6>
+              </div>
+            </div>
+            <div class="featured-rating">
+              <h5>Popularity</h5>
+              <div class="featured-rating-desc">
+                <i class="fa-solid fa-arrow-trend-up"></i>
+                <h6 class="featured-small-text">Very High</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="featured-content">
+          <div class="featured-poster">
+            <a href="./assets/featured-thor.jpeg" target="_blank">
+              <img
+                src="assets/image/featured-thor.jpeg"
+                alt="Thor: Love and Thunder"
+              />
+            </a>
+            <iframe
+              width="670"
+              height="370"
+              src="https://www.youtube.com/embed/Go8nTmfrQd8"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+
+          <div class="featured-book-watchlist">
+            <label for="movie-watchlist">Add to Watchlist</label>
+            <select name="movie-watchlist" id="movie-watchlist">
+              <option value="Today">Today</option>
+              <option value="Tomorrow">Tomorrow</option>
+              <option value="Next Week">Next Week</option>
+              <option value="Next Month">Next Month</option>
+            </select>
+
+            <button class="featured-book-ticket">BOOK TICKET</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="featured-container">
+        <div class="featured-title-and-rating">
+          <div class="featured-title-container">
+            <h3 class="featured-title">Top Gun: Maverick</h3>
+            <span class="featured-time"
+              >24<sup>th</sup> May 2022 | 12A | 2h 10m</span
+            >
+            <div class="featured-genres">
+              <button>Action</button>
+              <button>Drama</button>
+            </div>
+          </div>
+          <div class="featured-rating-container">
+            <div class="featured-rating">
+              <h5><span>Jawara</span> Rating</h5>
+              <div class="featured-rating-desc">
+                <i class="fa-solid fa-star"></i>
+                <h6 class="featured-small-text">8.6/10</h6>
+              </div>
+            </div>
+            <div class="featured-rating">
+              <h5>Your Rating</h5>
+              <div class="featured-rating-desc">
+                <i class="fa-regular fa-star"></i>
+                <h6 class="featured-small-text">Rate</h6>
+              </div>
+            </div>
+            <div class="featured-rating">
+              <h5>Popularity</h5>
+              <div class="featured-rating-desc">
+                <i class="fa-solid fa-arrow-trend-up"></i>
+                <h6 class="featured-small-text">Very High</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="featured-content">
+          <div class="featured-poster">
+            <a href="./assets/image/featured-topgunmaverick.jpg" target="_blank">
+              <img
+                src="assets/image/featured-topgunmaverick.jpg"
+                alt="Top Gun: Maverick"
+              />
+            </a>
+
+            <iframe
+              width="670"
+              height="370"
+              src="https://www.youtube.com/embed/giXco2jaZ_4"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+
+          <div class="featured-book-watchlist">
+            <label for="movie-watchlist">Add to Watchlist</label>
+            <select name="movie-watchlist" id="movie-watchlist">
+              <option value="Today">Today</option>
+              <option value="Tomorrow">Tomorrow</option>
+              <option value="Next Week">Next Week</option>
+              <option value="Next Month">Next Month</option>
+            </select>
+
+            <button class="featured-book-ticket">BOOK TICKET</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of Featured section -->
+
+    <!-- Awal Body Section -->
+    <div class="body-content" id="trending-now">
+      <div class="container-body">
+        <div class="section-title">
+          <h3>Trending Now</h3>
+          <a href="#">view more</a>
+        </div>
+        <div class="horizontal-content">
+          <div class="content">
+            <div class="upper-content">
+              <a href="#"
+                ><img
+                  src="assets/image/potc_awe.jpg"
+                  alt="Pirates of the Caribbean: At World's End"
+              /></a>
+              <p class="title">Pirates of the Caribbean: At World's End</p>
+            </div>
+            <div class="position-dekstop">
+              <p class="rating"><span>&#11088;</span> 7.1/10</p>
+              <p class="duration"><span>2h 48m</span> <span>EN</span> PG-13</p>
+              <p class="genre">Genre: Adventure, Action, Fantasy</p>
+              <div class="position-tablet">
+                <a href="#" class="button">Watch Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="content">
+            <div class="upper-content">
+              <a href="#"
+                ><img
+                  src="assets/image/harry_potter_1.jpg"
+                  alt="Harry Potter and the Sorcerer's Stone"
+              /></a>
+              <p class="title">Harry Potter and the Sorcerer's Stone</p>
+            </div>
+            <div class="position-dekstop">
+              <p class="rating"><span>&#11088;</span> 7.6/10</p>
+              <p class="duration"><span>2h 32m</span> <span>EN</span> PG</p>
+              <p class="genre">Genre: Kids & Family, Fantasy, Adventure</p>
+              <div class="position-tablet">
+                <a href="#" class="button">Watch Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="content">
+            <div class="upper-content">
+              <a href="#"
+                ><img src="assets/image/iron_man3.jpg" alt="Iron Man 3"
+              /></a>
+              <p class="title">Iron Man 3</p>
+            </div>
+            <div class="position-dekstop">
+              <p class="rating"><span>&#11088;</span> 7.1/10</p>
+              <p class="duration"><span>2h 10m</span> <span>EN</span> PG-13</p>
+              <p class="genre">Genre: Action, Sci-Fi, Adventure, Fantasy</p>
+              <div class="position-tablet">
+                <a href="#" class="button">Watch Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="content">
+            <div class="upper-content">
+              <a href="#"
+                ><img
+                  src="assets/image/harry_potter_2.jpg"
+                  alt="Harry Potter and the Chamber of Secrets"
+              /></a>
+              <p class="title">Harry Potter and the Chamber of Secrets</p>
+            </div>
+            <div class="position-dekstop">
+              <p class="rating"><span>&#11088;</span> 7.4/10</p>
+              <p class="duration"><span>2h 41m</span> <span>EN</span> PG</p>
+              <p class="genre">Genre: Kids & Family, Fantasy, Adventure</p>
+              <div class="position-tablet">
+                <a href="#" class="button">Watch Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="content">
+            <div class="upper-content">
+              <a href="#"><img src="assets/image/your_name.jpg" alt="Your Name" /></a>
+              <p class="title">Your Name</p>
+            </div>
+            <div class="position-dekstop">
+              <p class="rating"><span>&#11088;</span> 8.4/10</p>
+              <p class="duration"><span>1h 46m</span> <span>JP</span> PG</p>
+              <p class="genre">Genre: Fantasy, Romance, Anime</p>
+              <div class="position-tablet">
+                <a href="#" class="button">Watch Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="content">
+            <div class="upper-content">
+              <a href="#"
+                ><img
+                  src="assets/image/everything.jpg"
+                  alt="Everything Everywhere All at Once"
+              /></a>
+              <p class="title">Everything Everywhere All at Once</p>
+            </div>
+            <div class="position-dekstop">
+              <p class="rating"><span>&#11088;</span> 8.2/10</p>
+              <p class="duration"><span>2h 12m</span> <span>EN</span> R</p>
+              <p class="genre">Genre: Comedy, Adventure, Sci-Fi, Fantasy</p>
+              <div class="position-tablet">
+                <a href="#" class="button">Watch Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="content">
+            <div class="upper-content">
+              <a href="#"
+                ><img
+                  src="assets/image/tlotr_trotk.jpg"
+                  alt="The Lord of the Rings: The Return of the King"
+              /></a>
+              <p class="title">The Lord of the Rings: The Return of the King</p>
+            </div>
+            <div class="position-dekstop">
+              <p class="rating"><span>&#11088;</span> 9.0/10</p>
+              <p class="duration"><span>3h 20m</span> <span>EN</span> PG-13</p>
+              <p class="genre">Genre: Fantasy, Adventure</p>
+              <div class="position-tablet">
+                <a href="#" class="button">Watch Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="content">
+            <div class="upper-content">
+              <a href="#"
+                ><img src="assets/image/tams_2.jpg" alt="The Amazing Spider-Man 2"
+              /></a>
+              <p class="title">The Amazing Spider-Man 2</p>
+            </div>
+            <div class="position-dekstop">
+              <p class="rating"><span>&#11088;</span> 6.6/10</p>
+              <p class="duration"><span>2h 21m</span> <span>EN</span> PG-13</p>
+              <p class="genre">Genre: Action, Adventure</p>
+              <div class="position-tablet">
+                <a href="#" class="button">Watch Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="section-title" id="most-popular">
+          <h3>Most Popular</h3>
+          <a href="#">view more</a>
+        </div>
+        <div class="horizontal-content">
+          <div class="content">
+            <div class="upper-content">
+              <a href="#"
+                ><img
+                  src="assets/image/sc_atlotr.jpg"
+                  alt="Shang-Chi and the Legend of the Ten Rings"
+              /></a>
+              <p class="title">Shang-Chi and the Legend of the Ten Rings</p>
+            </div>
+            <div class="position-dekstop">
+              <p class="rating"><span>&#11088;</span> 7.4/10</p>
+              <p class="duration"><span>2h 13m</span> <span>EN</span> PG-13</p>
+              <p class="genre">Genre: Action, Adventure, Sports, Fantasy</p>
+              <div class="position-tablet">
+                <a href="#" class="button">Watch Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="content">
+            <div class="upper-content">
+              <a href="#"
+                ><img
+                  src="assets/image/fb_a_wtft.jpg"
+                  alt="Fantastic Beasts and Where to Find Them"
+              /></a>
+              <p class="title">Fantastic Beasts and Where to Find Them</p>
+            </div>
+            <div class="position-dekstop">
+              <p class="rating"><span>&#11088;</span> 7.2/10</p>
+              <p class="duration"><span>2h 7m</span> <span>EN</span> PG-13</p>
+              <p class="genre">Genre: Fantasy, Adventure</p>
+              <div class="position-tablet">
+                <a href="#" class="button">Watch Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="content">
+            <div class="upper-content">
+              <a href="#"
+                ><img src="assets/image/peaky_blinders.jpg" alt="Peaky Blinders"
+              /></a>
+              <p class="title">Peaky Blinders</p>
+            </div>
+            <div class="position-dekstop">
+              <p class="rating"><span>&#11088;</span> 8.8/10</p>
+              <p class="duration">
+                <span>Season 1</span> <span>EN</span> PG-16
+              </p>
+              <p class="genre">Genre: History, Drama</p>
+              <div class="position-tablet">
+                <a href="#" class="button">Watch Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="content">
+            <div class="upper-content">
+              <a href="#"
+                ><img src="assets/image/no_time_to_die.jpg" alt="No Time To Die"
+              /></a>
+              <p class="title">No Time To Die</p>
+            </div>
+            <div class="position-dekstop">
+              <p class="rating"><span>&#11088;</span> 7.3/10</p>
+              <p class="duration"><span>2h 43m</span> <span>EN</span> PG-13</p>
+              <p class="genre">Genre: Action, Adventure, Mystery & Thriller</p>
+              <div class="position-tablet">
+                <a href="#" class="button">Watch Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="content">
+            <div class="upper-content">
+              <a href="#"
+                ><img
+                  src="assets/image/john_wick3.jpg"
+                  alt="John Wick: Chapter 3 - Parabellum"
+              /></a>
+              <p class="title">John Wick: Chapter 3 - Parabellum</p>
+            </div>
+            <div class="position-dekstop">
+              <p class="rating"><span>&#11088;</span> 7.4/10</p>
+              <p class="duration"><span>2h 11m</span> <span>EN</span> R</p>
+              <p class="genre">Genre: Action, Mystery & Thriller</p>
+              <div class="position-tablet">
+                <a href="#" class="button">Watch Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="content">
+            <div class="upper-content">
+              <a href="#"
+                ><img
+                  src="assets/image/everything.jpg"
+                  alt="Everything Everywhere All at Once"
+              /></a>
+              <p class="title">Everything Everywhere All at Once</p>
+            </div>
+            <div class="position-dekstop">
+              <p class="rating"><span>&#11088;</span> 8.2/10</p>
+              <p class="duration"><span>2h 12m</span> <span>EN</span> R</p>
+              <p class="genre">Genre: Comedy, Adventure, Sci-Fi, Fantasy</p>
+              <div class="position-tablet">
+                <a href="#" class="button">Watch Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="content">
+            <div class="upper-content">
+              <a href="#"
+                ><img
+                  src="assets/image/home_alone2.jpg"
+                  alt="Home Alone 2: Lost in New York"
+              /></a>
+              <p class="title">Home Alone 2: Lost in New York</p>
+            </div>
+            <div class="position-dekstop">
+              <p class="rating"><span>&#11088;</span> 6.8/10</p>
+              <p class="duration"><span>2h 0m</span> <span>EN</span> PG</p>
+              <p class="genre">Genre: Kids & Family, Holiday, Comedy</p>
+              <div class="position-tablet">
+                <a href="#" class="button">Watch Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="content">
+            <div class="upper-content">
+              <a href="#"
+                ><img
+                  src="assets/image/tlotr_trotk.jpg"
+                  alt="The Lord of the Rings: The Return of the King"
+              /></a>
+              <p class="title">The Lord of the Rings: The Return of the King</p>
+            </div>
+            <div class="position-dekstop">
+              <p class="rating"><span>&#11088;</span> 9.0/10</p>
+              <p class="duration"><span>3h 20m</span> <span>EN</span> PG-13</p>
+              <p class="genre">Genre: Fantasy, Adventure</p>
+              <div class="position-tablet">
+                <a href="#" class="button">Watch Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slideshow w/ animation -->
+    <div class="container-utama">
+      <div id="slideshow-main-container">
+        <div id="slideshow-images-container">
+          <div class="slide-wrapper">
+            <div class="slideshow">
+              <img src="./assets/image/blinking-backtothefuture.webp" />
+            </div>
+            <div class="slideshow">
+              <img src="./assets/image/blinking-pulpfiction.webp" />
+            </div>
+            <div class="slideshow">
+              <img src="./assets/image/blinking-jaws.webp" />
+            </div>
+            <div class="slideshow">
+              <img src="./assets/image/blinking-scream.webp" />
+            </div>
+          </div>
+        </div>
+
+        <div id="slideshow-text-container">
+          <h1 class="slideshow-text">
+            <span>The</span>
+            <span>Classics</span>
+          </h1>
+          <p class="slideshow-description">
+            Old but <span>Gold</span> movies that is worth watching. <br />
+            Click down here to see more
+          </p>
+          <button class="main-tickets">WATCH NOW <br />FOR FREE</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- coming Soon, About Us, News -->
+    <nav class="main-header">
+      <nav class="lesson-wrapper">
+          <div class="container-coming" id="coming-soon">
+            <div class="heading">
+                <div class="heading-left">
+                  <h2>Coming Soon</h2>
+                </div>
+                <div class="heading-right">
+                  <a href="#">View more</a>
+                </div>
+            </div>
+          </div>
+          <nav class="cards-grid-coming-soon">
+            <div class="card">
+                <img src="assets/image/antman-quantumania.jpg" alt="" class="card-image">
+                <div class="card-content">
+                  <h4>antman Quantumania</h4>
+                  <p>Action, Sfc-fi, Adventure</p>
+                </div>
+                <div class="card-info">
+                  <div>
+                  <a href="#" class="card-link">View More</a>
+                  </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="assets/image/black-panther-wakanda-forever.jpg" alt="" class="card-image">
+                <div class="card-content">
+                  <h4>Black Panther: wakanda forever</h4>
+                  <p>Action, Sfc-fi, Drama</p>
+                </div>
+                <div class="card-info">
+                  <div>
+                  <a href="#" class="card-link">View More</a>
+                  </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="assets/image/indiana-jonesV.jpg" alt="" class="card-image">
+                <div class="card-content">
+                  <h4>indiana jones</h4><h4>V</h4>
+                  <p>Action, Adventure</p>
+                </div>
+                <div class="card-info">
+                  <div>
+                  <a href="#" class="card-link">View More</a>
+                  </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="assets/image/Black-clover-movie.jpg" alt="" class="card-image">
+                <div class="card-content">
+                  <h4>Black Clover</h4><h4>Movie</h4>
+                  <p>Action, Fantasy, Magic</p>
+                </div>
+                <div class="card-info">
+                  <div>
+                  <a href="#" class="card-link">View More</a>
+                  </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="assets/image/Tensura.jpg" alt="" class="card-image">
+                <div class="card-content">
+                  <h4>Tensura: Guren no Kizuna-hen</h4>
+                  <p>Action, Fantasy</p>
+                </div>
+                <div class="card-info">
+                  <div>
+                  <a href="#" class="card-link">View More</a>
+                  </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="assets/image/avatar-the-way-of-water.jpg" alt="" class="card-image">
+                <div class="card-content">
+                  <h4>Avatar the way of water</h4>
+                  <p>Action, Crime, Thriller</p>
+                </div>
+                <div class="card-info">
+                  <div>
+                  <a href="#" class="card-link">View More</a>
+                  </div>
+                </div>
+            </div>
+          </nav>
+      </nav>
+      </section>
+      <div class="container-coming">
+          <div class="about" id="about-us">
+            <div class="aboutus">
+                <h2>About Us</h2>
+            </div>
+          </div>
+      </div>
+      <section class="about-content">
+          <div class="about-info">
+            <h1>Watch everywhere.</h1>
+            <p>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</p>
+          </div>
+          <div class="img">
+            <img src="assets/image/device-pile-id.png" alt="">
+          </div>
+      </section>
+      <section class="section-grid">
+        <div class="container">
+          <div class="grid">
+            <div class="info">
+              <div class="trending">
+                <h3>most popular today</h3>
+              </div>
+              <div class="info-film">
+                <img src="assets/image/JK0.jpg" width="100px">
+                <h3>Jujutsu Kaisen 0 Movie</h3>
+                <h4>#1 Trending</h4>
+                <p>Duration: 1 hr. 45 min.</p>
+                <p>Studios: MAPPA</p>
+                <p>Aired: Oct 3, 2020 to Mar 27, 2021</p>
+                <p>Genres: Action, Fantasy</p>
+                <p>Violent misfortunes frequently occur around 16-year-old Yuuta Okkotsu, a timid victim of high school bullying.
+                Yuuta is saddled with a monstrous curse,power that dishes out brutal revenge against his bullies. 
+                Rika Orimoto, Yuuta's curse, is a shadow from his tragic childhood and a potentially lethal threat to anyone who dares wrong him.
+                </p>
+              </div>
+            </div>
+            <div class="form">
+              <div class="comment">
+                <h1>Your Comment</h1>
+              </div>
+              <form action="#">
+                <div class="flex">
+                  <input type="text" class="flex-input" placeholder="Your Name">
+                  <input type="email"  class="flex-input" placeholder="Your Email">
+                </div>
+                  <input type="text" class="flex-input" placeholder="Your Subject">
+                  <textarea rows="8" class="flex-input" placeholder="Your Massage"></textarea>
+                  <button type="submit">Send</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="news-wrapper" id="news">
+        <div class="container">
+          <div class="heading">
+            <div class="heading-left">
+              <h2>News</h2>
+            </div>
+            <div class="heading-right">
+              <a href="#">View more</a>
+            </div>
+          </div>
+          <div class="news">
+            <div class="date">
+              <p>Minggu, 30 Aug 2022</p>
+            </div>
+            <div class="article">
+              <article>
+                <h3>Ant-Man and the Wasp: Quantumania release date: when is the first Phase 5 movie out?</h3>
+                <p>The Ant-Man and the Wasp: Quantumania release date is February 17, 2023. It was originally set for July 28, 2023 but swapped places with Captain Marvel sequel The Marvels in an MCU schedule shake-up. Those in the UK may want to keep that entire week free. If Ant-Man 3 follows recent Marvel trends, it ll be available across the pond a few days early.</p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="learn-wrapper">
+        <div class="container">
+          <div class="border-bottom">
+              <a href="#"> Learn More</a>
+          </div>
+          <div class="learn">
+            <div class="date-learn">
+              <p>Minggu, 30 Aug 2022</p>
+            </div>
+            <div class="article-learn">
+              <article>
+                <h3>Tensura Movie Officially Announced</h3>
+                <p>After the season 2 finale that aired on September 21, 2021, “That Time I Got Reincarnated as a Slime” (“Tensura”) movie was officially announced. The movie is set to premiere in Fall 2022.</p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!--Awal footer-->
+    <footer>
+      <div class="footer-stage-1">
+        <div class="btn-backtotop">
+          <a href="#">Back to top</a>
+        </div>
+      </div>
+      <div class="footer-stage-2">
+        <div class="footer-list 1">
+          <ul>
+            <li></li><a href="#">About us</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Rules</a></li>
+          </ul>
+        </div>
+        <div class="footer-list 2">
+          <ul>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Vacancies</a></li>
+            <li><a href="#">Contacts</a></li>
+          </ul>
+        </div>
+        <div class="social-icon">
+          <a href="#" class="icon instagram">
+            <span class="fa fa-instagram fa-2x"></span>
+          </a>
+          <a href="#" class="icon facebook">
+            <span class="fa fa-facebook fa-2x"></span>
+          </a>  
+          <a href="#" class="icon twitter">
+            <span class="fa fa-twitter fa-2x"></span>
+          </a>
+        </div>
+        <div class="team-members">
+          <h3>JAWARA</h3>
+          <p>Team members</p>
+          <ul>
+            <li>Naufal Alwi Pratama</li>
+            <li>Hendie Jason Achmadi</li>
+            <li>Bulan Ayu Sari Muntai</li>
+            <li>Marcell Andreas Sanadhani Duha</li>
+            <li>Muhammad Johansyah Diaz Wirawan</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-stage-3">
+      <p>Copyright &copy; JawaraMovie</p>
+      </div>
+    </footer>
+    <!--Akhir footer-->
+    <!-- Akhir Body Section -->
+  </body>
+</html>
